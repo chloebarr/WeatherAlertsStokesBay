@@ -1,0 +1,2 @@
+A program that requests wind data from stokes bay sailing club, pushes the wind reading onto an AWS sqs queue, 
+and sends a notification to SNS subsrcribers if the wind is over 20 knots and they haven't recieved a notification in the last 30 minutes.
